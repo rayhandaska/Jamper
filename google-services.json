@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "236361610970",
+    "firebase_url": "https://jamper-364614-default-rtdb.firebaseio.com",
+    "project_id": "jamper-364614",
+    "storage_bucket": "jamper-364614.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236361610970:android:c4272e67f109ce90c297e3",
+        "android_client_info": {
+          "package_name": "com.example.jamper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236361610970-req1mmpsbtgdf3mppj436i7s0dsbhm3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjrRhZEYaGQaUOXCn9zBdJDtNZ7i2rDqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236361610970-req1mmpsbtgdf3mppj436i7s0dsbhm3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

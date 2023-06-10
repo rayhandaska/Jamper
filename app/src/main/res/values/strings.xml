@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JAMPER</string>
+    <string name="underline"><u>Forget Password?</u></string>
+    <string name="underline2"><u>Sign Up</u></string>
+    <string name="bold_page1"><b>Temperature</b> Adjustment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

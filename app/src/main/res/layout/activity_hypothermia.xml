@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="484dp"
+        android:layout_height="453dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226"
+        app:srcCompat="@drawable/sick">
+
+    </ImageView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="373dp"
+        android:background="@drawable/shape_page1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="191dp"
+            android:layout_height="39dp"
+            android:fontFamily="@font/playfair_display_sc"
+            android:text="Hypothermia"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="70px"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.047">
+
+        </TextView>
+
+        <ScrollView
+            android:layout_width="414dp"
+            android:layout_height="304dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.869">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="350dp"
+                android:layout_height="332dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/open_sans"
+                android:justificationMode="inter_word"
+                android:text="According to the Centers for Disease Control and Prevention (CDC), hypothermia is a medical emergency during which the human body loses heat faster than it can be produced. Hypothermia is an abnormally low body temperature of below 95°F (35°C). This happens when a person experiences cold temperatures for a prolonged period. While normal metabolic processes in the body generate heat, wintry weather can cause the body to lose more heat than it generates. When this occurs, the core temperature drops. A structure in the brain called the hypothalamus regulates body temperature. When someone is exposed to cold, the hypothalamus raises body temperature through measures such as increasing muscle tone and shivering. However, if exposure to cold continues, it will eventually overwhelm the body, and shivering will stop. At this point, multiple organs may stop functioning, which ultimately leads to death. This is why hypothermia is an extremely dangerous condition."
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="25dp">
+
+            </TextView>
+
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="42dp"
+        android:layout_height="36dp"
+        android:background="@drawable/arrow_back"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
